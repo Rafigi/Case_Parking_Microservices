@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Case_Parking_Microservices", "Case_Parking_Micronservices\Case_Parking_Microservices.csproj", "{25CEAAA9-3437-4F56-BFCA-1D5AF93A2CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25CEAAA9-3437-4F56-BFCA-1D5AF93A2CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CEAAA9-3437-4F56-BFCA-1D5AF93A2CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CEAAA9-3437-4F56-BFCA-1D5AF93A2CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CEAAA9-3437-4F56-BFCA-1D5AF93A2CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC7547FF-8CCD-4A6D-A03F-6D8385E326D1}
+	EndGlobalSection
+EndGlobal
