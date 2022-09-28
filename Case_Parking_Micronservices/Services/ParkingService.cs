@@ -87,7 +87,7 @@ namespace Case_Parking_Microservices.Services
             bool hasBeenSuccessfullyRegister = await _parkingRepository.RegisterParkingAsync(parking);
             if (hasBeenSuccessfullyRegister)
             {
-                string message = $"Your Car with license Plate {parking.LicensePlate}, has been register"
+                string message = $"Your Car with license Plate {parking.LicensePlate}, has been register";
                 bool isSent = await _smsService.SendMessageAsync(message);
                 //bool isSent = await _emailService.SendEmailAsync(message);
                 if (isSent)
